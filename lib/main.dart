@@ -87,12 +87,12 @@ class _MyHomePageState extends State<MyHomePage> {
                 height: 10,
               ),
             )),
-            // ListTile(
-            //   title: const Text('Item 1'),
-            //   onTap: () {
-            //     Navigator.pop(context);
-            //   },
-            // ),
+            ListTile(
+              title: const Text('Item 1'),
+              onTap: () {
+                Navigator.pop(context);
+              },
+            ),
             ListTile(
               title: const Text('Item 2'),
               onTap: () {
